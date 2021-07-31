@@ -1,6 +1,6 @@
 <?php
 /**
-* <a href='https://blog.ccdalao.cn/archives/197/' target='_blank'><<< handsome友链快速申请插件 >>></a>
+* <a href='https://blog.ccdalao.cn/archives/197/' target='_blank'><<< handsome友链自助申请插件 >>></a>
 *
 * @package <strong style="color:red;">ErcerLink</strong>
 * @author 二C
