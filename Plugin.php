@@ -4,7 +4,7 @@
 *
 * @package <strong style="color:red;">ErcerLink</strong>
 * @author 二C
-* @version 1.0.3
+* @version 1.0.5
 * @link https://blog.ccdalao.cn
 */
 function higrid_compress_html($higrid_uncompress_html_source) {
@@ -46,7 +46,7 @@ class ErcerLink_Plugin implements Typecho_Plugin_Interface {
     public static function footer() {
         $Path = Helper::options()->pluginUrl . '/ErcerLink/';
         $ahh = higrid_compress_html(Content::returnLinkList("ten", "ErcerLink"));
-        echo '<script type="text/javascript" src="' . $Path . 'js/ErcerLinks.js?v=999"></script>';
+        echo '<script type="text/javascript" src="' . $Path . 'js/ErcerLinks.js?v=9999"></script>';
         echo ("
         <script>
             $(document).ready(function(){
