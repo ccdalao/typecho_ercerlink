@@ -55,9 +55,6 @@ class ErcerLink_Action implements Widget_Interface_Do {
                 die('欸！你已经提交过啦😊');
             }
 
-
-
-
             $insert = $db->insert('table.links')
             ->rows(array(
                 'url' => $host_url,
@@ -68,14 +65,13 @@ class ErcerLink_Action implements Widget_Interface_Do {
                 'sort' => 'others'
             ));
             $insertId = $db->query($insert);
-            
-
-            
-            
             die('postok');
         }
 
     }
+
+
+
 
 
 }
