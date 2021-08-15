@@ -68,13 +68,14 @@ function Friends_Link_Page() {
         $.message({title: '提交失败：',message: '站点描述未填写哦！',type: 'error'});
     } else if (pngif || urlif) {
         $.post("/link_add",
-            $('#F-link').serialize(), function(data) {
+            $('#F-link_Page').serialize(), function(data) {
                 if (data == 'postok') {
                     $.message({
                         title: '提交成功，',
                         message: "等待站长通过哟！",
                         type: 'success'
                     });
+                    console.log($('#F-link_Page').serialize())
                 } else {
 
                     $.message({

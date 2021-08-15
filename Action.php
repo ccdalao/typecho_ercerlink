@@ -41,6 +41,13 @@ class ErcerLink_Action implements Widget_Interface_Do {
             $host_png = remove_xss($_POST['host_png']);
             $host_msg = remove_xss($_POST['host_msg']);
             $host_yes = remove_xss($_POST['host_yes']);
+            if(empty($_POST['host_name'])){
+            $host_name = remove_xss($_POST['host_name_page']);
+            $host_url = remove_xss($_POST['host_url_page']);
+            $host_png = remove_xss($_POST['host_png_page']);
+            $host_msg = remove_xss($_POST['host_msg_page']);
+            $host_yes = remove_xss($_POST['host_yes_page']);
+            }
 
 
 
