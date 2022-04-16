@@ -4,7 +4,7 @@
 *
 * @package <strong style="color:red;">ErcerLink</strong>
 * @author 二C
-* @version 1.0.6
+* @version 1.0.7
 * @link https://blog.ccdalao.cn
 */
 function higrid_compress_html($higrid_uncompress_html_source) {
