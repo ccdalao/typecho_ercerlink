@@ -14,7 +14,7 @@ function remove_xss($string) {
         } $pattern .= '/i'; $string = preg_replace($pattern, ' ', $string);
     } return $string;
 }
-class ErcerLink_Action implements Widget_Interface_Do {
+class ErcerLink_Action extends Typecho_Widget implements Widget_Interface_Do {
     public function execute() {
         //Do
     }
