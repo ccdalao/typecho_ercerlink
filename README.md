@@ -21,8 +21,11 @@
 # 安装与下载
 
 上传到根目录/plugins/
-解压即可
-下载方法，star后才能点击download
+上传到根目录/plugins/
+在github下载解压后
+务必将解压后的文件夹名称更改为ErcerLink
+
+下载方法，star后才能点击download （骗你的）
 
 # 其他
 
