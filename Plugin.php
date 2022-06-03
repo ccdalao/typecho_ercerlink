@@ -46,7 +46,7 @@ class ErcerLink_Plugin implements Typecho_Plugin_Interface {
     public static function footer() {
         $Path = Helper::options()->pluginUrl . '/ErcerLink/';
         $ahh = higrid_compress_html(Content::returnLinkList("ten", "ErcerLink"));
-        echo '<script type="text/javascript" src="' . $Path . 'js/ErcerLinks.js?v=122"></script>';
+        echo '<script type="text/javascript" src="' . $Path . 'js/ErcerLinks.js?v=124"></script>';
         echo ("
         <script>
             $(document).ready(function(){
