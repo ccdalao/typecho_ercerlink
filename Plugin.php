@@ -1,10 +1,10 @@
 <?php
 /**
-* <a href='https://blog.ccdalao.cn/archives/197/' target='_blank'><<< handsome友链快速申请插件 >>></a>
+* <a href='http://blog.ercer.cn/index.php/archives/197.html' target='_blank'><<< handsome友链快速申请插件 >>></a>
 *
 * @package <strong style="color:red;">ErcerLink</strong>
-* @author 二C
-* @version 1.0.8
+* @author 二C二的小窝@彭文凤
+* @version 2.0.1
 * @link https://blog.ccdalao.cn
 */
 function higrid_compress_html($higrid_uncompress_html_source) {
@@ -46,7 +46,7 @@ class ErcerLink_Plugin implements Typecho_Plugin_Interface {
     public static function footer() {
         $Path = Helper::options()->pluginUrl . '/ErcerLink/';
         $ahh = higrid_compress_html(Content::returnLinkList("ten", "ErcerLink"));
-        echo '<script type="text/javascript" src="' . $Path . 'js/ErcerLinks.js?v=124"></script>';
+        echo '<script type="text/javascript" src="' . $Path . 'js/ErcerLinks.js?v=125"></script>';
         echo ("
         <script>
             $(document).ready(function(){
