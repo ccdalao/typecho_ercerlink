@@ -1,6 +1,6 @@
 # handsome友链自助申请插件
 
-![image.png](https://blog.ccdalao.cn/usr/uploads/2021/07/2033163323.png)
+![image.png](http://qiniucdn.ercer.cn/usr/uploads/2021/07/2033163323.png)
 
 这是一个typecho插件
 **作用于handsome主题**
@@ -32,3 +32,9 @@
 对于提交的内容，我进行了简单xss过滤。
 俺也是个php小白
 第一次写typecho插件，不好用还请见谅
+
+
+# 更新
+最近一次更新 2025-03-09 
+*修复了一些潜在bug*
+*无需伪静态即可运行*
